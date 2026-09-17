@@ -1,0 +1,41 @@
+### Build output (all services) ###
+target/
+build/
+out/
+*.class
+*.jar
+*.war
+!.mvn/wrapper/maven-wrapper.jar
+
+### IDE ###
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Logs ###
+*.log
+logs/
+
+### Environment / secrets ###
+.env
+.env.*
+!.env.example
+application-local.yaml
+application-local.yml
+application-local.properties
+*.pem
+*.p12
+*.jks
+
+### Docker ###
+docker-compose.override.yml
